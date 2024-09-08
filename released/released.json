@@ -1,0 +1,58 @@
+[
+  {
+    "albumId": "album1",
+    "name": "Album Title 1",
+    "psyname": "Psychadelic Vibes",
+    "announcedate": "2024-06-01",
+    "releasedate": "2024-09-07",
+    "posters": "/images/album1-poster.jpg",
+    "descriptions": "This is the description for Album Title 1.",
+    "era": "Modern",
+    "discs": [
+      {
+        "discNumber": 1,
+        "songs": [
+          { "songId": "song1", "name": "Song Title 1", "notes": "Additional notes about the song", "OGFilename": "song1_original.mp3", "Length": "3:45", "date": "2024-09-07", "type": "MP3", "poster": "/images/song1-poster.jpg" },
+          { "songId": "song2", "name": "Song Title 2", "notes": "Additional notes about the song", "Length": "4:00", "date": "2024-09-07", "type": "MP3", "poster": "/images/song2-poster.jpg" }
+          // Additional songs for Disc 1
+        ]
+      },
+      {
+        "discNumber": 2,
+        "songs": [
+          { "songId": "song11", "name": "Song Title 11", "notes": "Additional notes about the song", "Length": "3:55", "date": "2024-09-07", "type": "MP3", "poster": "/images/song11-poster.jpg" },
+          { "songId": "song12", "name": "Song Title 12", "notes": "Additional notes about the song", "Length": "4:05", "date": "2024-09-07", "type": "MP3", "poster": "/images/song12-poster.jpg" }
+          // Additional songs for Disc 2
+        ]
+      }
+    ]
+  },
+  {
+    "albumId": "album2",
+    "name": "Album Title 2",
+    "psyname": "Classic Hits",
+    "releasedate": "2024-09-07",
+    "posters": "/images/album2-poster.jpg",
+    "descriptions": "This is the description for Album Title 2.",
+    "era": "Classic",
+    "songs": [
+      { "songId": "song13", "name": "Song Title 13", "notes": "Additional notes about the song", "OGFilename": "song13_original.mp3", "Length": "3:30", "date": "2024-09-07", "type": "MP3", "poster": "/images/song13-poster.jpg" },
+      { "songId": "song14", "name": "Song Title 14", "notes": "Additional notes about the song", "Length": "4:15", "date": "2024-09-07", "type": "MP3", "poster": "/images/song14-poster.jpg" }
+      // Additional songs for Album 2
+    ]
+  },
+  {
+    "albumId": "album3",
+    "name": "Album Title 3",
+    "psyname": "Jazz Fusion",
+    "releasedate": "2024-09-07",
+    "posters": "/images/album3-poster.jpg",
+    "descriptions": "This is the description for Album Title 3.",
+    "era": "Jazz",
+    "songs": [
+      { "songId": "song24", "name": "Song Title 24", "notes": "Additional notes about the song", "OGFilename": "song24_original.mp3", "Length": "4:00", "date": "2024-09-07", "type": "MP3", "poster": "/images/song24-poster.jpg" },
+      { "songId": "song25", "name": "Song Title 25", "notes": "Additional notes about the song", "Length": "4:15", "date": "2024-09-07", "type": "MP3", "poster": "/images/song25-poster.jpg" }
+      // Additional songs for Album 3
+    ]
+  }
+]
